@@ -1,0 +1,67 @@
+.carouselSec {
+  padding-top: 6rem;
+  /* height: 100vh;
+  overflow-y: auto; */
+  position: relative;
+}
+
+.sideOption {
+  background: #c1c1d3;
+  display: flex;
+  justify-content: center;
+  padding-block: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 1.2rem;
+  position: fixed;
+  width: 30%;
+  left: 50px;
+}
+
+.sideOption ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.bigCarousel section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.eachOpt a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.activeOpt a {
+  color: antiquewhite !important;
+  font-size: 1.8rem;
+}
+
+section > p {
+  font-weight: 700;
+  font-size: 3.5rem;
+  font-family: cursive;
+}
+
+section:nth-child(1) {
+  background: #f88379;
+}
+section:nth-child(2) {
+  background: #faa0a0;
+}
+section:nth-child(3) {
+  background: #e30b5c;
+}
+section:nth-child(4) {
+  background: #e0115f;
+}
+section:nth-child(5) {
+  background: #c21e56;
+}
